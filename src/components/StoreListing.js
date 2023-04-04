@@ -17,7 +17,7 @@ export default function StoreListings() {
       >
         Browse stores in New York
       </h2>
-      <Container style={{ marginTop: "40px", textAlign: "center" }}>
+      <Container style={{ marginTop: "50px", textAlign: "center" }}>
         <Row
           style={{
             borderBottom: "1px solid #E8E9EB",
@@ -27,12 +27,12 @@ export default function StoreListings() {
         >
           <Row>
             <Col xs=".5">
-              <Image
+              <Image style={{ height: "55px", width: "50px", border: "1px solid #E8E9EB" }} 
                 src="https://www.instacart.com/image-server/116x116/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/12/2774c343-1319-4720-a54f-0c46e93f956c.png"
                 roundedCircle
               />
             </Col>
-            <Col>
+            <Col style={{textAlign: 'left'}}>
               <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
               <p>Delivery * Pickup</p>
             </Col>
@@ -40,12 +40,12 @@ export default function StoreListings() {
           <Col sm="1"></Col>
           <Row>
             <Col xs=".5">
-              <Image
+              <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }}
                 src="https://www.instacart.com/image-server/116x116/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/235/c6dee5a3-afe8-4e60-9156-1a02a79fc72d.jpg"
                 roundedCircle
               />
             </Col>
-            <Col>
+            <Col style={{textAlign: 'left'}}>
               <h5 style={{ fontWeight: "bold" }}>Stop & Shop</h5>
               <p>Delivery * Pickup</p>
             </Col>
@@ -53,12 +53,12 @@ export default function StoreListings() {
           <Col sm="1"></Col>
           <Row>
             <Col xs=".5">
-              <Image
+              <Image  style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }}
                 src="https://www.instacart.com/image-server/116x116/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/648/e1c282e5-21e7-4ebb-8936-cf23fbec29d9.png"
                 roundedCircle
               />
             </Col>
-            <Col md="6">
+            <Col  sm="1">
               <h5 style={{ fontWeight: "bold" }}>Target</h5>
               <p>Delivery</p>
             </Col>
@@ -73,12 +73,12 @@ export default function StoreListings() {
         >
           <Row>
             <Col xs=".5">
-              <Image
+              <Image style={{ height: "55px", width: "50px", border: "1px solid #E8E9EB" }} 
                 src="https://www.instacart.com/image-server/116x116/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/12/2774c343-1319-4720-a54f-0c46e93f956c.png"
                 roundedCircle
               />
             </Col>
-            <Col>
+            <Col style={{textAlign: 'left'}}>
               <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
               <p>Delivery * Pickup</p>
             </Col>
@@ -86,12 +86,12 @@ export default function StoreListings() {
           <Col sm="1"></Col>
           <Row>
             <Col xs=".5">
-              <Image
+              <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }}
                 src="https://www.instacart.com/image-server/116x116/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/235/c6dee5a3-afe8-4e60-9156-1a02a79fc72d.jpg"
                 roundedCircle
               />
             </Col>
-            <Col>
+            <Col style={{textAlign: 'left'}}>
               <h5 style={{ fontWeight: "bold" }}>Stop & Shop</h5>
               <p>Delivery * Pickup</p>
             </Col>
@@ -99,12 +99,12 @@ export default function StoreListings() {
           <Col sm="1"></Col>
           <Row>
             <Col xs=".5">
-              <Image
+              <Image  style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }}
                 src="https://www.instacart.com/image-server/116x116/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/648/e1c282e5-21e7-4ebb-8936-cf23fbec29d9.png"
                 roundedCircle
               />
             </Col>
-            <Col md="6">
+            <Col sm="1">
               <h5 style={{ fontWeight: "bold" }}>Target</h5>
               <p>Delivery</p>
             </Col>
